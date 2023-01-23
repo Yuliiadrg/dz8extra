@@ -1,0 +1,142 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    transition: all .1s ease-in;
+}
+
+body {
+    font-family: "Lucida Sans Unicode";
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: #eaeeea;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+main {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 129px 135px 179px;
+    background-color: #2ea6e2;
+    border: 25px solid #2B81AC;
+}
+
+h1 {
+    font-size: 21px;
+    line-height: 25px;
+    margin-left: 35px;
+    margin-bottom: 40px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 35px;
+    margin-left: 35px;
+}
+
+.wi {
+    font-family: "Weather Icons";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 61px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.list-weather {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 0px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.list-item {
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    vertical-align: top;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    display: inline-block;
+    border: 2px solid #FFFFFF;
+    cursor: pointer;
+}
+
+span {
+    display: block;
+    margin-bottom: 14px;
+}
+
+.lisbon {
+    width: 50%;
+    background-color: #3399CC;
+}
+
+.paris {
+    width: 25%;
+    background-color: #33CCCC;
+}
+
+.bel {
+    width: 25%;
+    background-color: #996699;
+}
+
+.venice {
+    width: 25%;
+    background-color: #C24747;
+}
+
+.tel {
+    width: 25%;
+    background-color: #E2674A;
+}
+
+.cair {
+    width: 25%;
+    background-color: #FFCC66;
+}
+
+.new-york {
+    width: 25%;
+    background-color: #99CC99;
+}
+
+.new-d {
+    width: 25%;
+    background-color: #669999;
+}
+
+.san-f {
+    width: 50%;
+    background-color: #CC6699;
+}
+
+.tokyo {
+    width: 25%;
+    background-color: #339966;
+
+}
+
+.sydney {
+    width: 100%;
+    background-color: #666699;
+}
+
+ul:hover li:not(li:hover) {
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(3px);
+}
